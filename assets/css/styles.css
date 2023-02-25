@@ -22,7 +22,7 @@ body {
     box-shadow: 2px 3px 8px 7px  rgba(0, 0, 0, .5);
 }
 
-.relogio section {
+.clock {
     display: flex;
     flex-direction: column;
     align-items: center;

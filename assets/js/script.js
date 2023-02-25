@@ -2,6 +2,8 @@ const hours = document.getElementById('horas');
 const minutes = document.getElementById('minutos');
 const seconds = document.getElementById('segundos');
 
+const rel = document.querySelector('#relogio');
+
 const relogio = setInterval(function time() {
 
     let date = new Date();
@@ -21,4 +23,5 @@ const relogio = setInterval(function time() {
     // hours.innerText = horas;
     // minutes.innerText = minutos;
     // seconds.innerText = segundos;
+
 });
